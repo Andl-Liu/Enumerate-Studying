@@ -15,13 +15,13 @@ void print_subset(int n, int s)
 	printf("\n");
 }
 
-int main() 
-{
-	int n;
-	scanf("%d",&n);
-	for (int i = 0; i < (1 << n); i++)
-	{
-		print_subset(n, i);
-	}
-	return 0;
-}
+//int main() 
+//{
+//	int n;
+//	scanf("%d",&n);
+//	for (int i = 0; i < (1 << n); i++)
+//	{
+//		print_subset(n, i);
+//	}
+//	return 0;
+//}
